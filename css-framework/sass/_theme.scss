@@ -1,0 +1,42 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: $base-font-family;
+    font-weight: bold;
+}
+
+button, input[type="button"], input[type="submit"] {
+    border: none;
+    padding: 8px 16px;
+    border-radius: $base-border-radius;
+    background-color: $primary-color;
+    color: white;
+    cursor: pointer;
+    &:hover {
+        background-color: darken($primary-color, 10%);
+    }
+}
+.alert {
+    padding: 0.75rem 1.25rem;
+    border-radius: $base-border-radius;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.success {
+    background-color: $success-color;
+    color: white;
+}
+
+.warning {
+    background-color: $warning-color;
+    color: white;
+}
+
+.danger {
+    background-color: $danger-color;
+    color: white;
+}
+
+.info {
+    background-color: $info-color;
+    color: white;
+}

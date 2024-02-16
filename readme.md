@@ -19,5 +19,5 @@ Fennec is a lightweight and versatile CSS framework designed to streamline the p
 To start using Fennec in your project, simply include the compiled CSS file in your HTML document:
 
 ```html
-<link rel="stylesheet" href="path/to/fennec.css" />
+<link rel="stylesheet" href="path/to/main.css" />
 ```
